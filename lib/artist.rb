@@ -12,7 +12,7 @@ class Artist
     @@all << self 
   end 
   
-  class self.all
+  def self.all
     @@all 
   end 
   
